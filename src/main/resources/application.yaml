@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: kafka-producer-springboot-demo
+
+  kafka:
+    bootstrap-servers: localhost:9094
+
+test-event-topic-name: test-event
+
+server:
+  port: 8082
